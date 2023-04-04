@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0 14px;
+    font-size: 28px;
+    margin-right: 40px;
+}
+#logo img{
+    height: 42px;
+    filter: invert(1);
+}
+#navbar{
+    background-color: skyblue;
+    padding: 15px 6px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+#navbar li {
+    list-style: none;
+}
+
+#navbar li a{
+    text-decoration:  none;
+    padding: 15px 21px;
+    color: black;
+    
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#introSection{
+    padding-bottom: 40px;
+    color: white;
+    font-family: 'Delicious Handrawn', cursive;
+    font-size: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 420px;
+    background-color: gray;
+    background: center / cover no-repeat url("../static/dc.jpg");
+
+}
+#introSection div.small{
+    font-size: 2rem;
+}
+
+#missionSection{
+    height: 400px;
+    background-color: white;
+    width: 67%;
+    margin: auto;
+    
+
+}
+#missionSection h2{
+    text-align: center;
+    padding-top: 23px;
+    margin: auto;
+ 
+}
+
+.card {
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 29%;
+    margin: 22px 20px;
+    height: 300px;
+    background-color: rgb(125, 134, 125);
+    
+    
+
+}
+.card h3{
+    text-align: center;
+    margin: 15px 12px;
+}
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.card-content{
+    padding: 0 20px;
+
+}
+.card-content p{
+    font-size: 20px;
+
+}
+.card-img{
+    height: 131px;
+    padding: 0 14px;
+    margin: 5px 9px;
+}
+.card-img img{
+    height: inherit; 
+}
+
+#sponsersSection {
+    height: 300px;
+    background-color: pink;
+    
+    
+}
+
+#sponsersSection h2{
+    text-align: center;
+    padding-top: 23px;
+ 
+}
+#sponsers{
+    height: 150px;
+    max-width: 1050px;
+    margin: auto;
+}
+.spimg{
+    height: 90%;
+    margin: 20px;
+    justify-content: center
+
+}
+
+#footer{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-size: medium;
+    height: 50px;
+    background-color: black;
+    color: white;
+}

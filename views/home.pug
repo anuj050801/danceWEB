@@ -1,0 +1,53 @@
+extends base.pug
+
+block scripts 
+   script (src = '/static/index.js')
+
+block style 
+    style 
+      include ../static/style.css
+
+block content 
+    
+
+    section#introSection 
+        div Welcome to AK Dance Academy 
+        div.small Eat Sleep Dance Repeat
+
+    section#missionSection
+          h2 OUR MISSION   
+          div.card
+            h3 Move The way you want
+            div.card-box
+               div.card-img
+                   img(src="/static/1.png", alt="Not found")
+               div.card-content 
+                  p This is best place to dance
+
+                 
+          div.card
+            h3 Quality Dance
+            div.card-box
+               div.card-img
+                   img(src="/static/2.png", alt="Not found")
+               div.card-content 
+                  p This is best place to dance
+          div.card
+            h3 Dance Perfection
+            div.card-box
+               div.card-img
+                   img(src="/static/3.png", alt="Not found")
+               div.card-content 
+                  p This is best place to dance
+
+
+    section#sponsersSection 
+       h2 Our Sponsors 
+       div#sponsers
+          img(src="/static/logo1.png", alt="Sponsers img", class ="spimg")
+          img(src="/static/logo2.png", alt="Sponsers img", class ="spimg")
+          img(src="/static/logo3.png", alt="Sponsers img", class ="spimg")
+          img(src="/static/logo4.png", alt="Sponsers img", class ="spimg")
+    footer#footer 
+        | Copyright © 2023 @Ak Dance Academy!
+    
